@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.william278.cloplib.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "AbstractBlockStateMixin",
+    "BlockDispenserBehaviourMixin",
+    "ExplosionAccessor",
+    "ExplosionBehaviourMixin",
+    "ExplosionMixin",
+    "FireBlockMixin",
+    "FlowableFluidMixin",
+    "LecternBlockEntityMixin",
+    "PistonHandlerMixin",
+    "ProjectileDispenserBehaviourMixin",
+    "ProjectileEntityMixin",
+    "RaidManagerMixin",
+    "ReplaceBlockEnchantmentEffectMixin",
+    "ServerPlayNetworkHandlerMixin",
+    "SetBlockPropertiesEnchantmentEffectMixin",
+    "SpawnHelperMixin",
+    "VehiclePlaceDispenserBehaviourMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
